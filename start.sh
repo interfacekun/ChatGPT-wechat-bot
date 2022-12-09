@@ -1,0 +1,1 @@
+docker run -env HTTP_PROXY="http://192.168.81.215:7890" -env HTTPS_PROXY="http://192.168.81.215:7890" ALL_PROXY=socks5://192.168.81.215:7890 --name wechatbot registry.cn-shenzhen.aliyuncs.com/ainterface/wechatbot:0.0.1
